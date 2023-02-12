@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Business Website</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>Welcome to Our Business</h1>
+        <p>
+          Information technology (IT) services are the services that allow
+          businesses to access the technical tools and information they use for
+          their operational processes and daily tasks. Often, teams with
+          expertise in IT or computer science manage these services for
+          organizations in many industries. Depending on an organization's
+          business type, IT services team can either comprise internal teams or
+          external IT teams. For instance, in the medical field, an IT team for
+          a hospital may provide services that keep hospital databases
+          operational and easy to use for staff members. In a small business
+          setting, IT services can include online storage accounts for business
+          data and network security for transactions over the internet.
+        </p>
+        <section>
+          <h2>Our Services</h2>
+          <div class="services">
+            <div class="service">
+              <h3>Software development</h3>
+              <p>
+                IT services can often include software development processes to
+                create custom applications that fulfill specific business needs.
+                For example, a startup business may rely on its IT service team
+                to create a software application for organizing and maintaining
+                venture capitalist records. In these cases, IT can provide the
+                services you need to develop personalized software and ensure
+                the program's viability through continuous testing, development
+                and maintenance.
+              </p>
+            </div>
+            <div class="service">
+              <h3>Troubleshooting and technical support</h3>
+              <p>
+                IT services for many organizations also include technical
+                support and troubleshooting for software applications, programs
+                and online tools. Teams that offer these services often guide
+                users through the process of resolving technical errors or
+                recommend further steps to take, such as sending in the device
+                for repairs. With a dedicated technical support service, your
+                organization can receive the technical assistance it needs when
+                staff members have questions or challenges when using company
+                software.
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        
+          <input type="submit"></input>
+        </form>
+        
+        <div id="response-message">
+          <p id="response-message-text"></p>
+        </div>
+        
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023 Business</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
